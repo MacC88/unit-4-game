@@ -15,20 +15,35 @@
             </header>
 
 
-            <div id="Description">
-                <p>This is the area where I am going to explain what you have to do in order to win.</p>
+            <div id="description">
+                <p>You will be given a random number at the start of the game.</p>
+                <br>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total number.</p>
+                <br>
+                <p>You win the game by matching your total number with the random number that is displayed for you, however if you go 
+                    above the random number then you losse.</p>
+                <br>
+                <p>The value of each crystal is random and will reset after a win or losse.</p>
+                
             </div>
 
-            <div>
+            <div id="match">
                 <p>Match this number:</p>
+                <div id="winningNumber"></div>
             </div>
-            <div id="winningNumber"></div>
+            
             
             
             <div id="score">
                 <p id="wins"></p>
                 <p id="losses"></p>
             </div>
+
+            <div id="number">
+                <p>This is your number:</p>
+                <div id="scoreBoard"></div>
+            </div>
+            
 
             <div id="crystalPic">
                 <img id="crystal1" src="assets/images/blue-crystal.jfif">
@@ -37,10 +52,7 @@
                 <img id="crystal4" src="assets/images/purple-crystal.jfif">
             </div>
 
-            <div>
-                <p>This is your score:</p>
-            </div>
-            <div id="scoreBoard"></div>
+            
             
 
 

@@ -1,10 +1,10 @@
-var winningNumber = Math.floor((Math.random() * 146) + 30 );
+var winningNumber = Math.floor((Math.random() * 102) + 19 );
 var wins = 0;
 var losses = 0;
-var crystal1 = Math.floor((Math.random() * 9) + 1);
-var crystal2 = Math.floor((Math.random() * 21) + 1);
-var crystal3 = Math.floor((Math.random() * 16) + 1);
-var crystal4 = Math.floor((Math.random() * 29) + 1);
+var crystal1 = Math.floor((Math.random() * 12) + 1);
+var crystal2 = Math.floor((Math.random() * 12) + 1);
+var crystal3 = Math.floor((Math.random() * 12) + 1);
+var crystal4 = Math.floor((Math.random() * 12) + 1);
 var scoreBoard = 0;
 
 {

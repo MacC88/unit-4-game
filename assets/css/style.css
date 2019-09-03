@@ -1,1 +1,89 @@
-
+body{
+    max-width: 960px;
+    margin: 0% 12% 0% 12%;
+    text-align: center;
+    display: block;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    background-image: url(../images/background.jfif)
+}
+header{
+    
+    width: 500px;
+    height: 40px;
+    background-image: url(../images/background-2.jfif);
+    margin: 5% 24% 0% 24%;
+    padding-top: 2%;
+    font-weight: bold;
+    font-size: 24px;
+}
+#description{
+    width: 500px;
+    height: 220px;
+    background-image: url(../images/background-2.jfif);
+    margin: 2% 24% 0% 24%;
+    padding-top: 2%;
+    padding-left: 1%;
+    text-align: left;
+}
+#match{
+    width: 500px;
+    height: 50px;
+    background-image: url(../images/background-2.jfif);
+    margin: 2% 24% 0% 24%;
+    padding-top: 2%;
+}
+#score{
+    width: 500px;
+    height: 50px;
+    background-image: url(../images/background-2.jfif);
+    margin: 2% 24% 0% 24%;
+    padding-top: 2%;
+}
+#number{
+    width: 500px;
+    height: 50px;
+    background-image: url(../images/background-2.jfif);
+    margin: 2% 24% 0% 24%;
+    padding-top: 2%;
+}
+#winningNumber{
+    font-size: 24px;
+    color: red;
+}
+#scoreBoard{
+    font-size: 24px;
+    color: green;
+}
+#crystal1{
+    width: 200px;
+    height: 200px;
+}
+#crystal2{
+    width: 200px;
+    height: 200px;
+}
+#crystal3{
+    width: 200px;
+    height: 200px;
+}
+#crystal4{
+    width: 200px;
+    height: 200px;
+}
+#crystal1:hover{
+    width: 250px;
+    height: 250px;
+}
+#crystal2:hover{
+    width: 250px;
+    height: 250px;
+}
+#crystal3:hover{
+    width: 250px;
+    height: 250px;
+}
+#crystal4:hover{
+    width: 250px;
+    height: 250px;
+}
